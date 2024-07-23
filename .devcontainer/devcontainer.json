@@ -2,7 +2,8 @@
 	"image": "rafaelcorsi/embarcados",
 	"runArgs": ["--device=/dev/net/tun"],
 	"features": {
-	  "ghcr.io/devcontainers-contrib/features/tailscale:1": {}	    
+	  "ghcr.io/tailscale/codespace/tailscale:1.0.6": {}
 	}
+
 
 }
