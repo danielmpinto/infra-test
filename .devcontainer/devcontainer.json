@@ -9,8 +9,12 @@
 		"--privileged",
 		"-v", "/dev/bus/usb:/dev/bus/usb",
 		"--device=/dev/bus/usb",
-		"--device=/dev/ttyACM0"
+		"--device=/dev/ttyACM0",
+		"--device=/dev/net/tun"
 	],
+	"features": {
+        "ghcr.io/tailscale/codespace/tailscale": {}
+    	},
 	"customizations": {
 		"vscode": {
 			"extensions": [
