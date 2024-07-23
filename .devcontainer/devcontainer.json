@@ -1,5 +1,5 @@
 {
-	"image": "rafaelcorsi/embarcados",
+	"image": ""ubuntu:22.04",
 	"runArgs": ["--device=/dev/net/tun"],
 	"features": {
 	  "ghcr.io/tailscale/codespace/tailscale:1.0.6": {}
